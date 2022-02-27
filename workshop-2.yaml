@@ -7,5 +7,5 @@ spec:
   containers:
   - image: nginx
     name: nginx
-  - image: agentx
-    name: agentx
+  - image: redsi
+    name: redis

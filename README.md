@@ -40,7 +40,7 @@ kubectl create -f workshop-1.yaml
 kubectl create -f workshop-2.yaml
 ```
 
-3. 현재 Default 네임스페이스 에서 실행중인 컨테이너의 개수는 몇개입니까?
+3. 현재 Default 네임스페이스 에서 running 상태인 컨테이너의 개수는 몇개입니까?
 
 4. 위에서 만들어진 오브젝트의 문제점은 무엇입니까?
 
@@ -64,15 +64,15 @@ kubectl create -f workshop-3.yaml
 7. 아래 조건을 만족하는 pod 를 alpha 네임스페이스에 생성합니다.
 
 ```
-name: redis
-image: redis
+name: httpd
+image: httpd
 ```
 
 8. red 라는 pod는 어떤 namespace 에 있습니까?
 
-9. kubernetes 라는 이름의 service의 유형은 무엇입니까?
+9. Default 네임스페이스의 kubernetes 라는 이름의 service의 유형은 무엇입니까?
 
-10. kubernetes 라는 이름의 servic의 target port 는 무엇입니까?
+10. Default 네임스페이스의 kubernetes 라는 이름의 servic의 target port 는 무엇입니까?
 
 11. 아래 조건을 만족하는 service를 만드는 명령어를 쓰세요.
 
@@ -92,7 +92,13 @@ kubectl create -f workshop-4.yaml
 ```
 
 
-12. svc-pod 라는 이름의 pod와 연결하는 ClusterIP 유형의 Service를 배포하는 명령어는?
+12. 다음 조건을 만족하며 Default 네임스페이스의 svc-pod 라는 이름의 pod와 연결하는 Service를 배포하는 명령어는?
+```
+port: 80
+targetport: 8080
+type: ClusterIP
+```
+
 
 <br/>
 
