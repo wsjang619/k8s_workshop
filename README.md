@@ -47,7 +47,7 @@ kubectl create -f workshop-2.yaml
 5. 아래 조건을 만족시키는 Deployment를 생성하는 명령어를 쓰세요.
 
 ```
-name: dp-12
+name: dp-5
 replicas: 3
 image: httpd
 ```
