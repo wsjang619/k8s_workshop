@@ -1,6 +1,6 @@
 Kubernetes workshop test
 
-### 답은 다음 명령어로 파일에 저장합니다. (수정 시 vi 편집기 사용하여 편집)
+## 답은 다음 명령어로 파일에 저장합니다. (수정 시 vi 편집기 사용하여 편집)
 
 ```
 echo 문제 번호-답 >> ans.txt
@@ -11,7 +11,7 @@ echo 1-kubectl get nodes >> ans.txt
 ```
 
 
-# 사전 소스파일 다운로드
+## 사전 소스파일 다운로드
 ```
 cd
 git clone https://github.com/wsjang619/k8s_workshop
@@ -23,14 +23,11 @@ cd ~/k8s_workshop
 kubectl create -f workshop-1.yaml
 ```
 
-# 1. 현재 Default 네임스페이스의 pod의 개수는 몇개입니까?
+1. 현재 Default 네임스페이스의 pod의 개수는 몇개입니까?
 
-# 2. 1번 문제를 해결하기 위한 명령어를 쓰세요.
 
-# 3. 생성된 pod 내 컨테이너는 어떤 이미지를 사용합니까?
 
-# 4. 3번 문제를 해결하기 위한 명령어를 쓰세요.
-
+2. 생성된 pod 내 컨테이너는 어떤 이미지를 사용합니까?
 
 
 ## Quiz setting
@@ -38,9 +35,9 @@ kubectl create -f workshop-1.yaml
 kubectl create -f workshop-2.yaml
 ```
 
-# 5. 현재 Default 네임스페이스 에서 실행중인 컨테이너의 개수는 몇개입니까?
+3. 현재 Default 네임스페이스 에서 실행중인 컨테이너의 개수는 몇개입니까?
 
-# 6. 위에서 만들어진 오브젝트의 문제점은 무엇입니까?
+4. 위에서 만들어진 오브젝트의 문제점은 무엇입니까?
 
 # 7. 아래 조건을 만족시키는 Deployment를 생성하는 명령어를 쓰세요.
 
