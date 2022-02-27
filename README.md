@@ -2,9 +2,10 @@
 <br/>
 <br/>
 
-## 답은 다음 명령어로 파일에 저장합니다. (수정 시 vi 편집기 사용하여 편집)
+### 답은 다음 명령어로 파일에 저장합니다. (수정 시 vi 편집기 사용하여 편집)
 
 <br/>
+
 ```
 echo 문제 번호-답 >> ans.txt
 ```
@@ -14,14 +15,14 @@ echo 1-kubectl get nodes >> ans.txt
 ```
 
 
-## 사전 소스파일 다운로드
+### 사전 소스파일 다운로드
 ```
 cd
 git clone https://github.com/wsjang619/k8s_workshop
 cd ~/k8s_workshop
 ```
 
-## Quiz setting
+### Quiz setting
 ```
 kubectl create -f workshop-1.yaml
 ```
@@ -33,7 +34,7 @@ kubectl create -f workshop-1.yaml
 2. 생성된 pod 내 컨테이너는 어떤 이미지를 사용합니까?
 
 
-## Quiz setting
+### Quiz setting
 ```
 kubectl create -f workshop-2.yaml
 ```
@@ -50,7 +51,7 @@ replicas: 3
 image: httpd
 ```
 
-## Quiz setting
+### Quiz setting
 ```
 kubectl create -f workshop-3.yaml
 ```
@@ -81,7 +82,7 @@ nodeport: 30080
 ```
 
 
-## Quiz setting
+### Quiz setting
 ```
 kubectl create -f workshop-4.yaml
 ```
@@ -91,7 +92,7 @@ kubectl create -f workshop-4.yaml
 
 
 
-## Quiz setting
+### Quiz setting
 ```
 kubectl create -f workshop-5.yaml
 ```
