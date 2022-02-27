@@ -1,7 +1,6 @@
-# Kubernetes workshop test
+# Kubernetes workshop test  
 
-
-  
+   
 ## 답은 다음 명령어로 파일에 저장합니다. (수정 시 vi 편집기 사용하여 편집)
 
 ```
