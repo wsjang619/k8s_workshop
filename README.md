@@ -33,6 +33,7 @@ kubectl create -f workshop-1.yaml
 
 2. 생성된 pod 내 컨테이너는 어떤 이미지를 사용합니까?
 
+<br/>
 
 ### Quiz setting
 ```
@@ -50,6 +51,8 @@ name: dp-12
 replicas: 3
 image: httpd
 ```
+
+<br/>
 
 ### Quiz setting
 ```
@@ -81,6 +84,7 @@ port: 80
 nodeport: 30080
 ```
 
+<br/>
 
 ### Quiz setting
 ```
@@ -90,7 +94,7 @@ kubectl create -f workshop-4.yaml
 
 12. svc-pod 라는 이름의 pod와 연결하는 ClusterIP 유형의 Service를 배포하는 명령어는?
 
-
+<br/>
 
 ### Quiz setting
 ```
