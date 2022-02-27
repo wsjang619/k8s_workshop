@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: pro1-rs
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: redis
+  template:
+    metadata:
+      name: pro1-rs
+      labels:
+        app: redis
+    spec:
+      containers:
+      - name: pro1-rs
+        image: redis
