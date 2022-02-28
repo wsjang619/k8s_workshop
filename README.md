@@ -120,6 +120,7 @@ kubectl create -f workshop-6.yaml
 ```
 
 16. ns 네임스페이스에 LimitRange 를 다음 조건에 맞게 생성하세요.
+(hint = ~/k8s_course/lab5/yaml 에 있는 소스파일 참고)
 ```
 min memory : 0.5G
 max memory : 1G
