@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: ns1
+---
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: rq
+  namespace: ns1
+spec:
+  hard:
+    requests.memory: 2Gi
+    limits.memory: 5Gi

@@ -99,6 +99,7 @@ targetport: 8080
 type: ClusterIP
 ```
 
+13. 12번의 명령으로 Service 를 배포한 뒤, 해당 Service의 셀렉터는 무엇입니까?
 
 <br/>
 
@@ -107,6 +108,24 @@ type: ClusterIP
 kubectl create -f workshop-5.yaml
 ```
 
-13. 위에서 배포된 오브젝트의 문제점을 쓰세요.
+14. 위에서 배포된 오브젝트의 문제점을 쓰세요.
 
-14. 위 문제점을 해결하고 정상 작동하도록 트러블 슈팅하세요.
+15. 위 문제점을 해결하고 정상 작동하도록 트러블 슈팅하세요.
+
+<br/>
+
+### Quiz setting
+```
+kubectl create -f workshop-6.yaml
+```
+
+16. ns 네임스페이스에 LimitRange 를 다음 조건에 맞게 생성하세요.
+```
+min memory : 0.5G
+max memory : 1G
+maxLimitRequestRatio : 2
+default Request memory : 0.7G
+default memory: 0.7G
+```
+
+17. ns 네임스페이스에 ResourceQuota 의 제한 중 limit memory 값은 몇입니까?
