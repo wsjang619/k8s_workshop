@@ -145,8 +145,7 @@ kubectl create -f workshop-5.yaml
 kubectl create -f workshop-6.yaml
 ```
 
-21. ns1 네임스페이스에 LimitRange 를 다음 조건에 맞게 생성하고, 생성한 내용에 대한 스크린샷을 첨부하세요.
-(hint = ~/k8s_course/lab5/yaml 에 있는 소스파일 참고)
+21. ns1 네임스페이스에 LimitRange 를 다음 조건에 맞게 생성하고, 생성한 yaml의 내용을 답으로 기입합니다.
 ```
 min memory : 0.5G
 max memory : 1G
